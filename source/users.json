@@ -1,15 +1,14 @@
 {
-    "user1": {
-        "password": "123",
-        "2FA": {
-            "enabled": true,
-            "secret": "LVYDSCDDKB4DQV3A"
-        }
-    },
-    "user2": {
-        "password": "123",
-        "2FA": {
-            "enabled": false
-        }
+  "user1": {
+    "password": "123",
+    "2FA": {
+      "enabled": false
     }
+  },
+  "user2": {
+    "password": "123",
+    "2FA": {
+      "enabled": false
+    }
+  }
 }
