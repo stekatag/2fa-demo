@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>2FA Project Slides</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./resources/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./resources/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./resources/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./resources/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="./node_modules/reveal.js/dist/reset.css" />
+    <link rel="stylesheet" href="./node_modules/reveal.js/dist/reveal.css" />
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/reveal.js/dist/theme/white.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/reveal.js/plugin/highlight/zenburn.css"
+    />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <img
+            src="./resources/images/2fa.png"
+            alt="two-factor authentication"
+            style="
+              height: 220px;
+              margin: 0 auto 4rem auto;
+              background: transparent;
+            "
+            class="demo-logo"
+          />
+          <h3>Two-Factor Authentication Demo</h3>
+          <p>
+            <small
+              >Created by <a href="http://sgogov.dev/">Stefan Gogov</a>
+            </small>
+          </p>
+        </section>
+        <!-- TABLE OF CONTENTS -->
+        <section data-markdown>
+          <textarea data-template>
+            ## 📑 Contents
+            1. 👋 Introduction to 2FA
+            2. 📖 History
+            4. ✅ Benefits
+            5. 🧑‍💻 Demo
+          </textarea>
+        </section>
+        <!-- INTRODUCTION -->
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              ## 👋 Introduction to 2FA  
+              Security method that requires **two distinct forms of identification** to access resources and data.It aims to enhance the security of online accounts, smartphones, and other systems by making it **more difficult for unauthorized individuals to gain access.** <br><br> **The main components of 2FA include:**
+            </textarea>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              ### 1. **Something you know** 🔐
+              This could be a password, PIN, or knowledge-based question that only the user knows
+            </textarea>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              ### 2. **Something you have** 📲
+              This refers to a physical object in the user's possession, such as a security token, smartphone app, or hardware token
+            </textarea>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              ### 2. **Something you are** 😄
+              This encompasses biometric authentication methods, such as fingerprint scanning, facial recognition, or voice recognition
+            </textarea>
+          </section>
+        </section>
+        <!-- HISTORY -->
+        <section>
+          <section>
+            <h2>📖 History</h2>
+            <p>
+              The concept of 2FA dates back to the 1980s, but it gained traction
+              in the mid-2000s with the increasing popularity of smartphones. As
+              smartphones began to support fingerprint scanning and facial
+              recognition, the evolution of 2FA accelerated even further
+            </p>
+          </section>
+          <section>
+            <img
+              src="./resources/images/chaney.jpg"
+              alt="Christopher Chaney"
+              style="height: 300px; margin: 0 auto 4rem auto"
+            />
+            <p>
+              In 2010 Christopher Chaney, a celebrity obsessed cyber-stalker,
+              got hold of a number of celebrity emails.
+            </p>
+          </section>
+          <section>
+            <p>
+              Using data gleaned from social media and Wikipedia, he
+              successfully guessed the passwords to over 50 personal email
+              accounts belonging to famous women
+            </p>
+          </section>
+          <section>
+            <div class="items-center">
+              <img
+                src="./resources/images/celebrity1.webp"
+                alt="celebrity"
+                style="height: 300px"
+              />
+              <img
+                src="./resources/images/celebrity2.webp"
+                alt="celebrity"
+                style="height: 300px"
+              />
+              <img
+                src="./resources/images/celebrity3.webp"
+                alt="celebrity"
+                style="height: 300px"
+              />
+            </div>
+            <p>
+              He was responsible for posting nude photos of Mila Kunis, Scarlett
+              Johansson, Christina Aguilera and several non-celebrity women.
+            </p>
+            <p>He has since been sentenced to 10 years in jail.</p>
+          </section>
+        </section>
+        <!-- BENEFITS -->
+        <section>
+          <section>
+            <h2>✅ Benefits</h2>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              1. **Increased security** - 2FA makes it more difficult for attackers to access your online accounts by adding an extra layer of security
+            </textarea>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              2. **Protection against various attacks** - 2FA can help protect against phishing, social engineering, and password brute-force attacks
+            </textarea>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              3. **Compatibility with various devices** - 2FA can be used to secure online accounts, smartphones, and even physical access systems, such as doors or lockers.
+            </textarea>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              🧑‍💻 At the end of the day, **no system is ever 100% secure.** What 2FA
+              does is protect your customers from all but the most determined
+              hackers, and **it protects them thousands of times better than
+              username/password alone**
+            </textarea>
+          </section>
+        </section>
+        <section>
+          <h2>💻 Demo project showcase</h2>
+        </section>
+        <section>
+          <h2>🙋‍♂️Any questions? 🤔</h2>
+        </section>
+        <section>
+          <h2>Thank you for your attention!</h2>
+        </section>
+      </div>
+    </div>
+    <script type="module">
+      import Reveal from "./node_modules/reveal.js/dist/reveal.esm.js";
+      import RevealMarkdown from "./node_modules/reveal.js/plugin/markdown/markdown.esm.js";
+      import RevealNotes from "./node_modules/reveal.js/plugin/notes/notes.esm.js";
+      import RevealHighlight from "./node_modules/reveal.js/plugin/highlight/highlight.esm.js";
+
+      Reveal.initialize({
+        hash: true,
+
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>

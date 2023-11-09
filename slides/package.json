@@ -1,0 +1,16 @@
+{
+  "name": "2fa-demo-slides",
+  "version": "1.0.0",
+  "description": "Two-factor authentication demo project slides",
+  "main": "index.html",
+  "author": "Stefan Gogov",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server -p 8000 -c-1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "reveal.js": "^4.6.1",
+    "reveal.js-copycode": "^1.1.2"
+  }
+}
